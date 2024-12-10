@@ -1,0 +1,108 @@
+
+
+.title{
+    padding: 30px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.title span{
+    color:#9C3E5F ;
+    font-size: 40px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main img {
+    max-width: 500px;
+}
+
+.main-info{
+    max-width: 500px;
+}
+
+.main-info ul {
+    padding-left: 15px;
+}
+
+.main-info a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #9C3E5F;
+}
+
+h2 {
+    text-align: center;
+}
+
+.form {
+   margin: 50px auto;
+   max-width: 420px;
+   display: flex;
+   flex-direction: column;
+}
+
+.form h2{
+    text-align: center;
+    font-size: 35px;
+}
+
+.form input{
+    border-radius: 10px;
+    font-size: 23px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(175, 171, 171);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.form button{
+    background-color: #9C3E5F;
+    border-radius: 10px;
+    padding: 16px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.location{
+    max-width:15px ;
+}
+
+.mail{
+    max-width:15px ;
+}
+
+.phone{
+    max-width:15px ;
+}
+
+.contact {
+    font-family: 'Times New Roman', Times, serif
+}
+
+.bon{
+    max-width:500px ;
+    display: flex;
+}
+
+.all{
+    background-color:antiquewhite
+}
+
+.gul{
+    padding: 1px;
+}
+
+input::placeholder{
+    color: #9C3E5F;
+    font-style: italic;
+}
+
+textarea::placeholder {
+    color: #F9A826;
+    font-style: italic;
+}
